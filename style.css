@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+html, body {
+    background-color: #0d1116;
+}
+
+:root {
+    --graph-bg: #000;
+    --default-square-bg: #161b22;
+    --level3: darkblue;
+    --level5: blue;
+    --level10: lightskyblue;
+}
+
+.graph-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.graph {
+    background-color: var(--graph-bg);
+    margin: 0 auto;
+    padding: 1em 1em;
+    display: grid;
+    grid-template-columns: repeat(52, 10px);
+    gap: .25em;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 10px;
+    grid-template-rows: repeat(7, 10px);
+    gap: .25em;
+}
+
+.square {
+    border-radius: 2px;
+    background-color: var(--default-square-bg);
+}
+
+.square[data-value="10"] {
+    background-color: var(--level10);
+}
+
+.square[data-value="5"] {
+    background-color: var(--level5);
+}
+
+.square[data-value="3"] {
+    background-color: var(--level3);
+}
