@@ -1,5 +1,7 @@
-# scrimba-github-contributions-graph
-A <strong>dynamic, CSS-styled contributions graph</strong>, inspired by GitHub's contribution tracking. This project uses <strong>JavaScript to generate the graph</strong> and <strong>CSS Grid for layout</strong>, providing a visually appealing way to display activity levels.
+<h1>GitHub Contributions Graph 📊</h1>
+<p>
+  A <strong>dynamic, CSS-styled contributions graph</strong>, inspired by GitHub's contribution tracking. This project uses <strong>JavaScript to generate the graph</strong> and <strong>CSS Grid for layout</strong>, providing a visually appealing way to display activity levels.
+</p>
 <h2>✨ Features</h2>
 <ul>
   <li>
